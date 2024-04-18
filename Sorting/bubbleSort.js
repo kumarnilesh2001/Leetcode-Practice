@@ -13,9 +13,9 @@ function bubbleSort(arr) {
         is_swaped = true;
       }
     }
-  }
-  if (is_swaped === false) {
-    return arr;
+    if (is_swaped === false) {
+      return arr;
+    }
   }
   return arr;
 }
